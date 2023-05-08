@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    background-color:antiquewhite ;
+    margin-top: 20rem;
+}
+
+.container {
+    /* background-color: antiquewhite; */
+    /* border: 3px solid black; */
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* width: 1200px;
+    min-height: 700px; */
+    /* margin: 5rem; */
+    align-content: center;
+}
+
+.box1 {
+    background-color: azure;
+    border: 3px solid blue; 
+    margin: 2rem;
+    height: 20rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box2 {
+    border: 3px solid red;
+    width: 20rem;
+    margin: 2rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3 {
+    border: 3px solid red;
+    width: 20rem;
+    margin: 2rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4 {
+    border: 3px solid red;
+    width: 20rem;
+    margin: 2rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box5 {
+    border: 3px solid red;
+    width: 20rem;
+    margin: 2rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box6 {
+    border: 3px solid red;
+    width: 20rem;
+    margin: 2rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box7 {
+    border: 3px solid red;
+    width: 20rem;
+    margin: 2rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box8 {
+    border: 3px solid red;
+    width: 20rem;
+    margin: 2rem;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grandchild1{
+    flex-shrink: 2;
+    background-color:rgb(211, 252, 6);
+    border: 3px solid black;
+    width: 10rem;
+    margin: 2rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

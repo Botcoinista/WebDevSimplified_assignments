@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  border-radius: 1rem;
+  height: 100vh;
+  background-color: rgb(198, 152, 152);
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  height: 180px;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  background-color: rgb(250, 207, 155);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 1rem;
+  /* flex-direction: column; */
+}
+
+.add-btn {
+  width: 50%;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem;
+  color: #fff;
+  background-color: rgba(105, 215, 21, 0.761);
+  cursor: pointer;
+}
+
+.clear-btn {
+  width: 50%;
+  margin: 1rem;
+  border-radius: 1rem;
+  border: none;
+  padding: 0.5rem;
+  color: #fff;
+  background-color: rgba(191, 28, 28, 0.777);
+  cursor: pointer;
+}
+
+.inputTodo {
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: none;
+  outline: 1.5px solid lightcoral;
+  margin: 1rem;
+  background-color: rgb(250, 245, 237);
+}
+
+/* input:focus {
+    border: 3px solid black;
+    background-color: aquamarine;
+} */
+
+::placeholder {
+  font-style: italic;
+}
+
+input[type="text"] {
+  font-size: 15px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+.add-btn:hover {
+  background-color: rgba(105, 215, 21, 0.943);
+}
+.add-btn:active {
+  background-color: rgb(107, 235, 10);
+}
+.clear-btn:hover {
+  background-color: rgba(191, 28, 28, 0.925);
+}
+.clear-btn:active {
+  background-color: rgb(230, 12, 12);
+}
+
+.todo-list-container {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  /* width: 100%; */
+  width: 80%;
+  overflow-y: scroll;
+  margin-top: 2rem;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* height: 100%; */
+  height: 600px;
+  overflow-y: scroll;
+  /* background-color: rgb(250, 245, 237); */
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: rgb(250, 207, 155);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.checkbox-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  /* height: 50px; */
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+  background-color: rgb(243, 176, 94);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+label {
+  font-size: 1.2rem;
+  font-family: "Roboto Mono", monospace;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.checkbox-input {
+  margin-right: 1rem;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.todo-name {
+    word-break: break-all;
+  }
+  
